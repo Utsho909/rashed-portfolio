@@ -9,9 +9,9 @@ export const cvData = {
   },
   summary: "With Master's degrees in Economics and Development Studies, I bring over 25 years of experience in the development sector, working from grassroots to senior advisory roles with national and international organizations, including NRECA International (USA), Human Dynamics (Austria), Gonoshahajjo Sangstha (GSS), Ain o Salish Kendra (ASK) and Manabadhikar Shongskriti Foundation (MSF). My expertise includes program design and management, monitoring, evaluation and learning (MEL), research, advocacy, and capacity development across diverse thematic areas such as human rights, gender equality, child rights, disability inclusion, SRHR, WASH, MHM, education, livelihoods, governance, DRR, climate change adaptation, and Countering Violent Extremism (CVE).",
   education: [
-    { degree: "MSS in Economics", institution: "University of Chittagong", year: "1993" },
-    { degree: "Masters in Development Studies (MDS)", institution: "Brac University", year: "2014" },
-    { degree: "Postgraduate Diploma in Disaster Management (PGDDM)", institution: "The Academy of Environmental Explore (AEE)", year: "Expected June 2026" }
+    { degree: "MSS in Economics", institution: "", year: "1993" },
+    { degree: "Masters in Development Studies (MDS)", institution: "", year: "2014" },
+    { degree: "Postgraduate Diploma in Disaster Management (PGDDM)", institution: "", year: "Expected June 2026" }
   ],
   experience: [
     {
@@ -93,7 +93,7 @@ export const cvData = {
     }
   ],
   consultancies: [
-    { title: "Study of Intersectionality of Disability with Gender, Religion, Ethnicity", client: "Netrokona University", year: "2026", category: "Research", role: "Team Member" },
+    { title: "Study of Intersectionality of Disability with Gender, Religion, Ethnicity", client: "Public Research University", year: "2026", category: "Research", role: "Team Member" },
     { title: "Human Rights Situation Study Project", client: "Manabadhikar Shongskriti Foundation (MSF)", year: "2025–2026", category: "Evaluation", role: "Team Leader" },
     { title: "Joint Assessment on BMET & DEMO Arbitration", client: "BNWLA", year: "2025", category: "Assessment", role: "Lead Assessment Expert" },
     { title: "Endline Evaluation – Resilience Strengthening (BMZ-PT Project)", client: "CDD", year: "2025", category: "Evaluation", role: "Team Leader" },
@@ -170,17 +170,17 @@ export const cvData = {
     }
   ],
   training: [
-    { name: "Project Management: Computer Based Approach", institution: "BUET, Dhaka", year: 2012 },
-    { name: "Project Planning, Development and Management", institution: "NAPD, Dhaka", year: 2010 },
-    { name: "Research Methodology with Application of SPSS", institution: "BIM, Dhaka", year: 2007 },
-    { name: "Applied Statistics and SPSS", institution: "ISRT, Dhaka University", year: 2004 },
-    { name: "SurveyCTO, ODK, KoBoToolbox, ONA.io and CSPro", institution: "CBSG", year: "2018" }
+    { name: "Project Management: Computer Based Approach", institution: "", year: 2012 },
+    { name: "Project Planning, Development and Management", institution: "", year: 2010 },
+    { name: "Research Methodology with Application of SPSS", institution: "", year: 2007 },
+    { name: "Applied Statistics and SPSS", institution: "", year: 2004 },
+    { name: "SurveyCTO, ODK, KoBoToolbox, ONA.io and CSPro", institution: "", year: "2018" }
   ],
   collaborators: [
-    "UNICEF", "UNDP", "UNFPA", "USAID", "CBM Global", "Oxfam GB", "BRAC", "MJF", "Diakonia", "SCI", "TIB", 
-    "Comilla University", "Institute of Developing Economies", "Nippon Foundation", "World Vision", "Save the Children", 
-    "Baptist Aid", "BNPS", "Swiss Red Cross", "Netrokona University", "BNWLA", "CDD", "Right Livelihood Foundation", 
-    "Caritas Bangladesh", "World Concern Bangladesh", "Sabalamby Unnayan Samity (SUS)", "BCWS", "SHEDF", "ALRD", 
+    "UNICEF", "UNDP", "UNFPA", "USAID", "CBM Global", "Oxfam GB", "BRAC", "MJF", "Diakonia", "SCI", "TIB",
+    "Public Research University", "Institute of Developing Economies", "Nippon Foundation", "World Vision", "Save the Children",
+    "Baptist Aid", "BNPS", "Swiss Red Cross", "Public Research Institution", "BNWLA", "CDD", "Right Livelihood Foundation",
+    "Caritas Bangladesh", "World Concern Bangladesh", "Sabalamby Unnayan Samity (SUS)", "BCWS", "SHEDF", "ALRD",
     "Landesa", "PARI", "NACOM", "Maxwell Stamp PLC"
   ],
   skills: [
