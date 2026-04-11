@@ -121,53 +121,413 @@ export const cvData = {
   ],
   publications: [
     {
-      id: 1,
-      title: "Flood Preparedness in Sirajganj-Impact Assessment and Key Learnings",
-      year: "2025",
-      publisher: "National Development Programme (NDP)",
-      cover: "/docs/flood_preparedness.png",
-      pdfUrl: "/docs/sample.pdf",
-      pages: [
-        "This study provides a comprehensive analysis of flood preparedness strategies in the Sirajganj region. It evaluates the impact of early warning systems and community-based resilience programs.",
-        "Key findings suggest that while infrastructure has improved, there remains a critical need for digital inclusion and decentralized resource management to ensure equitable disaster response."
-      ]
-    },
-    {
-      id: 2,
-      title: "Gender-Based Violence and Access to Justice for Indigenous Women",
-      year: "2020",
-      publisher: "Manusher Jonno Foundation (MJF)",
-      cover: "/docs/gbv_justice.png",
-      pdfUrl: "/docs/sample.pdf",
-      pages: [
-        "Focusing on the Chittagong Hill Tracts, this research explores the systemic barriers indigenous women face when seeking justice for gender-based violence.",
-        "The report advocates for policy reforms that integrate customary laws with national legal frameworks to protect the rights of marginalized female populations."
-      ]
-    },
-    {
-      id: 3,
-      title: "Sexual Harassment against female workers at Workplace",
-      year: "2019",
-      publisher: "Manusher Jonno Foundation (MJF)",
-      cover: "/docs/sexual_harassment.png",
-      pdfUrl: "/docs/sample.pdf",
-      pages: [
-        "An investigation into the prevalence of sexual harassment in the RMG sector and other urban workplaces. The study outlines strategies for prevention and legal recourse.",
-        "It highlights the importance of internal compliance committees and the role of trade unions in fostering a safe and respectful work environment for all employees."
-      ]
-    },
-    {
-      id: 4,
-      title: "Mapping Bangladesh’s Tanning and Leather Industries",
-      year: "2015",
-      publisher: "SOMO, The Netherlands",
-      cover: "/docs/leather_industry.png",
-      pdfUrl: "/docs/sample.pdf",
-      pages: [
-        "A detailed mapping of the supply chain in the leather industry, focusing on environmental standards and labor rights in the Hazaribagh tanning district.",
-        "The publication serves as a baseline for multinational corporations to implement sustainable sourcing practices and improve worker health and safety protocols."
-      ]
-    }
+          "id": 1,
+          "title": "Online Safety Session Guide.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/1.png",
+          "pdfUrl": "/docs/books/1.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as 1.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 2,
+          "title": "Session Guide for Child Club.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/2.png",
+          "pdfUrl": "/docs/books/2.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as 2.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 3,
+          "title": "Saving groupprint.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/3.png",
+          "pdfUrl": "/docs/books/3.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as 3.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 4,
+          "title": "Draft Session Guide for Youth Organisation 1.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/4.png",
+          "pdfUrl": "/docs/books/4.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as 4.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 5,
+          "title": "Baseline ReportASKDemocracy Rights Final 23-08-17 - short.pd...",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/ASK_Baseline.png",
+          "pdfUrl": "/docs/books/ASK_Baseline.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as ASK Baseline.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 6,
+          "title": "ASKASTHABaseline-Survey-ReportFINAL11-May-2019.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/ASTHA-ASK.png",
+          "pdfUrl": "/docs/books/ASTHA-ASK.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as ASTHA-ASK.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 7,
+          "title": "Microsoft Word - PRiME Project Draft Baseline Report 2024",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/BNPS_PRIME.png",
+          "pdfUrl": "/docs/books/BNPS_PRIME.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as BNPS PRIME.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 8,
+          "title": "Microsoft Word - 6 April 2026 Report of Joint Assessment on ...",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/BNWLA.png",
+          "pdfUrl": "/docs/books/BNWLA.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as BNWLA.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 9,
+          "title": "Child Labour Book 4th Edition.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/Child_labour_in_Local_RMG.png",
+          "pdfUrl": "/docs/books/Child_labour_in_Local_RMG.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as Child labour in Local RMG.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 10,
+          "title": "MCYCDP Child Marriage - final.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/CMBAID.png",
+          "pdfUrl": "/docs/books/CMBAID.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as CMBAID.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 11,
+          "title": "Covers copy",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/Copy_of_All_covers.png",
+          "pdfUrl": "/docs/books/Copy_of_All_covers.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as Copy of All covers.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 12,
+          "title": "cover",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/cover2.png",
+          "pdfUrl": "/docs/books/cover2.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as cover2.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 13,
+          "title": "cover",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/cover[1].png",
+          "pdfUrl": "/docs/books/cover[1].pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as cover[1].pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 14,
+          "title": "Evaluation Report revised on May 18th.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/ICCO.png",
+          "pdfUrl": "/docs/books/ICCO.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as ICCO.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 15,
+          "title": "Microsoft Word - Fnl EvaRepInteract17DecClean",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/Interact.png",
+          "pdfUrl": "/docs/books/Interact.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as Interact.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 16,
+          "title": "Baseline Study on countrywide downstream garment industry in...",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/Local_RMG.png",
+          "pdfUrl": "/docs/books/Local_RMG.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as Local RMG.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 17,
+          "title": "02.Bangla SH prevention and protestBangla 31.07.2019 1.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/MJF_RMG_BANGLA.png",
+          "pdfUrl": "/docs/books/MJF_RMG_BANGLA.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as MJF RMG BANGLA.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 18,
+          "title": "Study-Report-on-Sexual-Harassment-Update-24-09-19printed-ver...",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/MJF_RMG.png",
+          "pdfUrl": "/docs/books/MJF_RMG.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as MJF RMG.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 19,
+          "title": "Study-Report-GBV-on-CHT.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/MJF-CHT.png",
+          "pdfUrl": "/docs/books/MJF-CHT.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as MJF-CHT.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 20,
+          "title": "MEAL FrameworkNGDO - Final English.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/ngdo.png",
+          "pdfUrl": "/docs/books/ngdo.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as ngdo.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 21,
+          "title": "Mapping-of-the-tannery-and-leather-sectors-in-Bangladesh.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/SOMO_TANARY.png",
+          "pdfUrl": "/docs/books/SOMO_TANARY.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as SOMO_TANARY.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 22,
+          "title": "Microsoft Word - Final DocumentKABP StudySUS",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/SUSUNICEF2023.png",
+          "pdfUrl": "/docs/books/SUSUNICEF2023.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as SUSUNICEF2023.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 23,
+          "title": "Microsoft Word - SBCQualitativeReportFinal 2025",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/SUSUNICEF2025.png",
+          "pdfUrl": "/docs/books/SUSUNICEF2025.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as SUSUNICEF2025.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 24,
+          "title": "Tannery in Bangladesh Final report.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/Tannery_1.png",
+          "pdfUrl": "/docs/books/Tannery_1.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as Tannery 1.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 25,
+          "title": "Microsoft Word - Document1",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/BAID.png",
+          "pdfUrl": "/docs/books/BAID.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as BAID.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 26,
+          "title": "Microsoft Word - Draft evaluation report 2nd October 23 with...",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/bcws.png",
+          "pdfUrl": "/docs/books/bcws.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as bcws.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 27,
+          "title": "Microsoft Word - Final Eva ReportAWAMBNPS21Mar",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/BNPS_AWAM.png",
+          "pdfUrl": "/docs/books/BNPS_AWAM.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as BNPS AWAM.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 28,
+          "title": "Microsoft Word - PRiME Project Draft Baseline Report 2024",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/BNPS_PRIME1.png",
+          "pdfUrl": "/docs/books/BNPS_PRIME1.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as BNPS PRIME1.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 29,
+          "title": "Microsoft Word - 6 April 2026 Report of Joint Assessment on ...",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/BNWLA.png",
+          "pdfUrl": "/docs/books/BNWLA.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as BNWLA.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 30,
+          "title": "Microsoft Word - Fnl EvaRepInteract17DecClean",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/Interact2.png",
+          "pdfUrl": "/docs/books/Interact2.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as Interact2.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 31,
+          "title": "NK System Audit 31 August 2016.pdf",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/NK.png",
+          "pdfUrl": "/docs/books/NK.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as NK.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 32,
+          "title": "Microsoft Word - Ned assessment report - Final on 25 sept 20...",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/PHULKI.png",
+          "pdfUrl": "/docs/books/PHULKI.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as PHULKI.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 33,
+          "title": "Microsoft Word - Final DocumentKABP StudySUS",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/SUSUNICEF20231.png",
+          "pdfUrl": "/docs/books/SUSUNICEF20231.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as SUSUNICEF20231.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      },
+      {
+          "id": 34,
+          "title": "Microsoft Word - Final Report - Accessibility Matters Disabi...",
+          "year": "2024",
+          "publisher": "Professional Report",
+          "cover": "/docs/covers/UNDP.png",
+          "pdfUrl": "/docs/books/UNDP.pdf",
+          "pages": [
+              "A detailed professional report containing essential research and findings. Originally documented as UNDP.pdf.",
+              "Click to open and read the full document in the interactive viewer."
+          ]
+      }
   ],
   training: [
     { name: "Project Management: Computer Based Approach", institution: "", year: 2012 },
