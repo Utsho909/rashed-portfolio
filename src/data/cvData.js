@@ -568,6 +568,186 @@ export const cvData = {
             url: "/docs/gallery/7.jpeg",
             width: 4,
             height: 3
+        },
+        {
+            "id": 8,
+            "title": "Unsorted Photo 1",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_1.png",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 9,
+            "title": "Unsorted Photo 2",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_2.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 10,
+            "title": "Unsorted Photo 3",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_3.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 11,
+            "title": "Unsorted Photo 4",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_4.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 12,
+            "title": "Unsorted Photo 5",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_5.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 13,
+            "title": "Unsorted Photo 6",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_6.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 14,
+            "title": "Unsorted Photo 7",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_7.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 15,
+            "title": "Unsorted Photo 8",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_8.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 16,
+            "title": "Unsorted Photo 9",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_9.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 17,
+            "title": "Unsorted Photo 10",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_10.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 18,
+            "title": "Unsorted Photo 11",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_11.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 19,
+            "title": "Unsorted Photo 12",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_12.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 20,
+            "title": "Unsorted Photo 13",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_13.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 21,
+            "title": "Unsorted Photo 14",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_14.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 22,
+            "title": "Unsorted Photo 15",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_15.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 23,
+            "title": "Unsorted Photo 16",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_16.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 24,
+            "title": "Unsorted Photo 17",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_17.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 25,
+            "title": "Unsorted Photo 18",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_18.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 26,
+            "title": "Unsorted Photo 19",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_19.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 27,
+            "title": "Unsorted Photo 20",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/other_20.jpeg",
+            "width": 4,
+            "height": 3
         }
     ]
 };
