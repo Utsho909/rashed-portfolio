@@ -64,12 +64,12 @@ const Contact = ({ data }) => {
             <h3 className="text-3xl font-bold tracking-tight text-gray-900 mb-8">
               Interested in a detailed profile?
             </h3>
-            <button className="flex items-center gap-4 px-8 py-5 bg-green-700 text-white rounded-full font-bold shadow-xl shadow-green-900/20 hover:scale-105 transition-all w-fit">
+            <a href="/cv.pdf" download className="flex items-center gap-4 px-8 py-5 bg-green-700 text-white rounded-full font-bold shadow-xl shadow-green-900/20 hover:scale-105 transition-all w-fit">
               <span>Download Full Curriculum Vitae</span>
               <ArrowRight size={20} />
-            </button>
+            </a>
           </div>
-          
+
           <div className="text-left md:text-right text-gray-500">
             <p className="text-[10px] font-bold uppercase tracking-[0.5em] mb-2 text-gray-400">© 2026</p>
             <p className="text-lg font-bold text-gray-700">A M Rasheduzzaman Khan</p>

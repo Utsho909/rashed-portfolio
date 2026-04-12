@@ -93,13 +93,13 @@ export const cvData = {
         }
     ],
     consultancies: [
-        { title: "Study of Intersectionality of Disability with Gender, Religion, Ethnicity", client: "Public Research University", year: "2026", category: "Research", role: "Team Member" },
-        { title: "Human Rights Situation Study Project", client: "Manabadhikar Shongskriti Foundation (MSF)", year: "2025–2026", category: "Evaluation", role: "Team Leader" },
+        { title: "Study of Intersectionality of Disability with Gender, Religion, Ethnicity", client: "Public University", year: "2026", category: "Research", role: "Team Member" },
+        { title: "Human Rights Situation Study Project", client: "Manabadhikar Shongskriti Foundation (MSF)", year: "2025–2026", category: "Research", role: "Team Leader" },
         { title: "Joint Assessment on BMET & DEMO Arbitration", client: "BNWLA", year: "2025", category: "Assessment", role: "Lead Assessment Expert" },
         { title: "Endline Evaluation – Resilience Strengthening (BMZ-PT Project)", client: "CDD", year: "2025", category: "Evaluation", role: "Team Leader" },
         { title: "Baseline Survey – Mollahat Child, Youth & Community Development", client: "Baptist Aid", year: "2025–2026", category: "DRR/Survey", role: "Quantitative Expert" },
-        { title: "Children on the Frontline: Climate Change Impact on Children", client: "Right Livelihood Foundation", year: "2025", category: "Advisory", role: "Technical & Research Advisor" },
-        { title: "START Ready Learning Grant – Flood Preparedness (Sirajganj)", client: "National Development Programme (NDP)", year: "2024–2025", category: "Research", role: "Lead Consultant" },
+        { title: "Children on the Frontline: Climate Change Impact on Children", client: "Right Livelihood Foundation", year: "2025", category: "DRR/Survey", role: "Technical & Research Advisor" },
+        { title: "START Ready Learning Grant – Flood Preparedness (Sirajganj)", client: "National Development Programme (NDP)", year: "2024–2025", category: "DRR/Research", role: "Lead Consultant" },
         { title: "Final Evaluation – EPJIA Project", client: "World Concern Bangladesh", year: "2024", category: "Evaluation", role: "Team Leader" },
         { title: "Baseline Survey – PRiME Project, Chattogram & CHT", client: "BNPS", year: "2024", category: "Survey", role: "Lead Consultant" },
         { title: "Gender Analysis – ISEC Project, Cox's Bazar", client: "BRAC", year: "2024", category: "Gender", role: "Team Member" },
@@ -568,15 +568,6 @@ export const cvData = {
             url: "/docs/gallery/7.jpeg",
             width: 4,
             height: 3
-        },
-        {
-            "id": 8,
-            "title": "Unsorted Photo 1",
-            "category": "Others",
-            "location": "Bangladesh",
-            "url": "/docs/gallery/other_1.png",
-            "width": 4,
-            "height": 3
         },
         {
             "id": 9,
