@@ -51,12 +51,46 @@ const BentoHighlights = () => {
                 </span>
               ))}
             </div>
-            <div className="absolute -bottom-12 -right-12 w-48 h-48 rounded-full bg-white/5" />
+            {/* Layered animated decorative circles for better visibility */}
+            <motion.div 
+              animate={{ 
+                scale: [1, 1.1, 1],
+                opacity: [0.1, 0.2, 0.1]
+              }}
+              transition={{
+                duration: 6,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+              className="absolute -bottom-8 -right-8 w-56 h-56 rounded-full bg-white/10 blur-xl px-4" 
+            />
+            <motion.div 
+              animate={{ 
+                scale: [1.2, 1, 1.2],
+                opacity: [0.05, 0.15, 0.05]
+              }}
+              transition={{
+                duration: 8,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+              className="absolute -top-12 -left-12 w-40 h-40 rounded-full bg-white/10 blur-lg" 
+            />
           </BentoCard>
-
+ 
           {/* Box 2 — Tall (1×2): Years of Experience — POP UP */}
           <BentoCard className="col-span-1 row-span-2 bg-gray-900 text-white flex flex-col justify-end" initial={popUp} delay={0.1}>
-            <BarChart2 size={32} className="text-green-400 mb-auto" />
+            <motion.div
+              animate={{ y: [0, -10, 0] }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+              className="mb-auto"
+            >
+              <BarChart2 size={32} className="text-green-400" />
+            </motion.div>
             <div>
               <p className="text-7xl font-black leading-none mb-2">25<span className="text-green-400">+</span></p>
               <p className="text-sm font-bold uppercase tracking-widest opacity-60">Years of Experience</p>
@@ -85,9 +119,13 @@ const BentoHighlights = () => {
             </div>
             <div className="flex flex-wrap gap-2">
               {skills.map((skill) => (
-                <span key={skill} className="bg-gray-100 text-gray-700 text-xs font-bold px-4 py-2 rounded-full hover:bg-green-100 hover:text-green-800 transition-colors">
+                <motion.span 
+                  key={skill} 
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  className="bg-gray-100 text-gray-700 text-xs font-bold px-4 py-2 rounded-full hover:bg-green-100 hover:text-green-800 transition-colors cursor-default"
+                >
                   {skill}
-                </span>
+                </motion.span>
               ))}
             </div>
           </BentoCard>
@@ -100,9 +138,13 @@ const BentoHighlights = () => {
             </div>
             <div className="flex flex-wrap gap-2">
               {partners.map((p) => (
-                <span key={p} className="bg-white/10 text-white text-xs font-bold px-4 py-2 rounded-full">
+                <motion.span 
+                  key={p} 
+                  whileHover={{ scale: 1.05, backgroundColor: 'rgba(255, 255, 255, 0.2)' }}
+                  className="bg-white/10 text-white text-xs font-bold px-4 py-2 rounded-full transition-colors cursor-default"
+                >
                   {p}
-                </span>
+                </motion.span>
               ))}
             </div>
           </BentoCard>

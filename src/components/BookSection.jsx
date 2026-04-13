@@ -22,6 +22,8 @@ const BookCard = ({ book, onClick }) => {
 };
 
 const BookReader = ({ book, onClose }) => {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
     <motion.div 
       className="book-overlay flex flex-col justify-center items-center py-6 px-4"
@@ -43,10 +45,17 @@ const BookReader = ({ book, onClose }) => {
 
       {/* Main Native Reader Container */}
       <div className="w-full h-full max-w-7xl mt-12 mb-4 bg-white rounded-xl shadow-2xl overflow-hidden relative">
+        {isLoading && (
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50 z-10">
+            <Loader2 size={48} className="text-green-600 animate-spin mb-4" />
+            <p className="text-gray-500 font-bold animate-pulse">Loading Document...</p>
+          </div>
+        )}
         <iframe 
           src={book.pdfUrl} 
           title={book.title}
           className="w-full h-full border-0 bg-gray-100"
+          onLoad={() => setIsLoading(false)}
         />
       </div>
     </motion.div>
@@ -63,7 +72,7 @@ const BookSection = ({ publications }) => {
           <div>
             <h2 className="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-4">Publications</h2>
             <p className="text-gray-500 max-w-xl text-lg font-medium">
-              Real-world research and evaluation reports. Click to open the 3D flipbook reader.
+              High-performance research and evaluation reports. Click to open the document viewer.
             </p>
           </div>
         </div>

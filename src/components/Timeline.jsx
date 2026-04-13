@@ -14,7 +14,14 @@ const TimelineItem = ({ item, index }) => {
   const opacity = useTransform(scrollYProgress, [0, 1], [0.3, 1]);
 
   return (
-    <div ref={ref} className="relative pl-12 pb-20 group">
+    <motion.div 
+      ref={ref} 
+      initial={{ opacity: 0, x: -30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.8, delay: index * 0.1 }}
+      className="relative pl-12 pb-20 group"
+    >
       {/* Connector Line */}
       <div className="absolute left-[5.5px] top-4 bottom-0 w-[2px] bg-gray-200 group-last:bg-transparent" />
       
@@ -24,7 +31,11 @@ const TimelineItem = ({ item, index }) => {
         className="absolute left-0 top-4 w-3 h-3 bg-green-600 rounded-full border-2 border-white shadow-sm z-10"
       />
 
-      <div className="flex flex-col gap-2 bg-white soft-border soft-shadow-hover p-6 hover:bg-green-50/50 transition-colors cursor-pointer rounded-3xl" onClick={() => setIsExpanded(!isExpanded)}>
+      <motion.div 
+        whileHover={{ scale: 1.02 }}
+        className="flex flex-col gap-2 bg-white soft-border soft-shadow-hover p-6 hover:bg-green-50/50 transition-colors cursor-pointer rounded-3xl" 
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
         <span className="text-xs font-bold text-green-700 uppercase tracking-widest bg-green-100 self-start px-3 py-1 rounded-full">
           {item.period}
         </span>
@@ -62,8 +73,8 @@ const TimelineItem = ({ item, index }) => {
         <div className="flex items-center gap-1 text-xs font-bold text-gray-400 mt-2">
           {isExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 
@@ -73,11 +84,12 @@ const MasonryGrid = ({ data }) => {
       {data.map((item, i) => (
         <motion.div 
           key={item.id}
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, scale: 0.9, y: 30 }}
+          whileInView={{ opacity: 1, scale: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}
-          transition={{ delay: i * 0.1 }}
-          className="bg-white soft-border soft-shadow p-6 break-inside-avoid hover:-translate-y-1 hover:shadow-xl transition-all rounded-3xl group"
+          transition={{ duration: 0.5, delay: i * 0.05 }}
+          whileHover={{ y: -10 }}
+          className="bg-white soft-border soft-shadow p-6 break-inside-avoid hover:shadow-2xl transition-all rounded-3xl group cursor-pointer"
         >
           <span className="text-[10px] font-bold text-green-700 bg-green-100 px-3 py-1 rounded-full uppercase tracking-widest mb-4 inline-block">
             {item.period}
@@ -90,8 +102,8 @@ const MasonryGrid = ({ data }) => {
             {item.details.length > 100 ? item.details.substring(0, 100) + '...' : item.details}
           </p>
           <div className="flex flex-wrap gap-2">
-            {item.tech.slice(0, 2).map((t) => (
-              <span key={t} className="text-[10px] font-medium bg-gray-100 text-gray-600 px-2 py-1 rounded-md">
+            {item.tech.slice(0, 3).map((t) => (
+              <span key={t} className="text-[10px] font-medium bg-gray-50 text-gray-600 px-2.5 py-1.5 rounded-lg border border-gray-100">
                 {t}
               </span>
             ))}
@@ -111,6 +123,7 @@ const Timeline = ({ data }) => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div>
             <h2 className="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-4">Experience</h2>
+            <div className="w-20 h-1 bg-green-600 rounded-full mb-6" />
             <p className="text-gray-500 max-w-xl text-lg font-medium">
               A journey spanning 25 years in development advocacy.
             </p>
@@ -119,13 +132,13 @@ const Timeline = ({ data }) => {
           <div className="flex p-1.5 bg-gray-100 rounded-full shadow-inner">
             <button 
               onClick={() => setView('chrono')}
-              className={`flex items-center gap-2 px-5 py-2.5 text-xs font-bold rounded-full transition-all ${view === 'chrono' ? 'bg-white text-gray-900 shadow' : 'text-gray-500 hover:text-gray-700'}`}
+              className={`flex items-center gap-2 px-6 py-3 text-xs font-bold rounded-full transition-all ${view === 'chrono' ? 'bg-white text-gray-900 shadow-md' : 'text-gray-500 hover:text-gray-700'}`}
             >
               <List size={16} /> Chronological
             </button>
             <button 
               onClick={() => setView('grid')}
-              className={`flex items-center gap-2 px-5 py-2.5 text-xs font-bold rounded-full transition-all ${view === 'grid' ? 'bg-white text-gray-900 shadow' : 'text-gray-500 hover:text-gray-700'}`}
+              className={`flex items-center gap-2 px-6 py-3 text-xs font-bold rounded-full transition-all ${view === 'grid' ? 'bg-white text-gray-900 shadow-md' : 'text-gray-500 hover:text-gray-700'}`}
             >
               <Layers size={16} /> Masonry Grid
             </button>
@@ -136,9 +149,9 @@ const Timeline = ({ data }) => {
           {view === 'chrono' ? (
             <motion.div 
               key="chrono"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
               className="max-w-4xl mx-auto"
             >
               {data.map((item, i) => (

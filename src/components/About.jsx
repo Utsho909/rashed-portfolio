@@ -17,36 +17,63 @@ const TabButton = ({ active, onClick, icon: Icon, label }) => (
   </button>
 );
 
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.1
+    }
+  }
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 15 },
+  visible: { 
+    opacity: 1, 
+    y: 0,
+    transition: { duration: 0.5, ease: "easeOut" }
+  }
+};
+
 const About = () => {
   const [activeTab, setActiveTab] = useState('bio');
 
   const tabContent = {
     bio: (
       <motion.div 
-        initial={{ opacity: 0, x: 20 }}
-        animate={{ opacity: 1, x: 0 }}
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
         className="space-y-6 text-gray-700 leading-relaxed text-lg"
       >
-        <p>
+        <motion.p variants={itemVariants}>
           With Master’s degrees in Economics and Development Studies, I bring over 25 years of experience in the development sector, working from grassroots to senior advisory roles with national and international organizations.
-        </p>
-        <p>
+        </motion.p>
+        <motion.p variants={itemVariants}>
           My expertise includes program design and management, monitoring, evaluation and learning (MEL), research, advocacy, and capacity development across diverse thematic areas such as human rights, gender equality, child rights, disability inclusion, and climate change adaptation.
-        </p>
-        <p>
+        </motion.p>
+        <motion.p variants={itemVariants}>
           I am currently pursuing a Postgraduate Diploma in Disaster Management at The Academy of Environmental Explore (AEE), expected June 2026.
-        </p>
+        </motion.p>
       </motion.div>
     ),
     education: (
       <motion.div 
-        initial={{ opacity: 0, x: 20 }}
-        animate={{ opacity: 1, x: 0 }}
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
         className="grid gap-6"
       >
         {cvData.education.map((edu, idx) => (
-          <div key={idx} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex items-start gap-4">
-            <div className="bg-green-100 p-3 rounded-xl text-green-600">
+          <motion.div 
+            key={idx} 
+            variants={itemVariants}
+            whileHover={{ scale: 1.02 }}
+            className="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex items-start gap-4 transition-colors hover:bg-white overflow-hidden group"
+          >
+            <div className="bg-green-100 p-3 rounded-xl text-green-600 transition-transform group-hover:rotate-12">
               <GraduationCap size={24} />
             </div>
             <div>
@@ -56,28 +83,32 @@ const About = () => {
                 {edu.year}
               </span>
             </div>
-          </div>
+          </motion.div>
         ))}
       </motion.div>
     ),
     training: (
       <motion.div 
-        initial={{ opacity: 0, x: 20 }}
-        animate={{ opacity: 1, x: 0 }}
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
         className="grid gap-4"
       >
         {cvData.training.map((trn, idx) => (
-          <div key={idx} className="flex items-center gap-4 bg-white p-5 rounded-2xl border border-gray-100 soft-shadow">
-            <CheckCircle2 className="text-green-600 shrink-0" size={20} />
+          <motion.div 
+            key={idx} 
+            variants={itemVariants}
+            className="flex items-center gap-4 bg-white p-5 rounded-2xl border border-gray-100 soft-shadow group hover:bg-green-50/50 transition-colors"
+          >
+            <CheckCircle2 className="text-green-600 shrink-0 group-hover:scale-125 transition-transform" size={20} />
             <div>
                <p className="font-bold text-gray-900">{trn.name}</p>
                <p className="text-sm text-gray-500">{trn.institution} • {trn.year}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </motion.div>
     ),
-
   };
 
   return (

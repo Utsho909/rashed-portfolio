@@ -12,6 +12,7 @@ import BookSection from './components/BookSection'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
 import EyeOpening from './components/EyeOpening'
+import BackToTop from './components/BackToTop'
 import { cvData } from './data/cvData'
 import './App.css'
 
@@ -32,7 +33,7 @@ function App() {
   }, []);
 
   return (
-    <main className="bg-white text-gray-900 min-h-screen font-body overflow-x-hidden selection:bg-green-200">
+    <main className="bg-white text-gray-900 min-h-screen font-body overflow-x-hidden selection:bg-green-600 selection:text-white">
       <EyeOpening onComplete={() => setIntroDone(true)} />
       <Navbar />
       <Hero data={cvData} />
@@ -43,6 +44,7 @@ function App() {
       <BookSection publications={cvData.publications} />
       <Gallery items={cvData.gallery} />
       <Contact data={cvData} />
+      <BackToTop />
     </main>
   )
 }
