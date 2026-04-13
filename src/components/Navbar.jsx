@@ -29,7 +29,8 @@ const Navbar = () => {
           }`}
       >
         <div className="flex justify-between items-center text-white mix-blend-difference">
-          <a href="#" className="text-xl font-bold tracking-tight hover:opacity-70 transition-opacity flex items-center gap-2">
+          <a href="#" className="text-xl font-bold tracking-tight hover:opacity-70 transition-opacity flex items-center gap-3">
+            <img src="/logo.png" alt="Logo" className="w-8 h-8 rounded-lg object-cover shadow-sm" />
             AMRK
           </a>
 
@@ -40,7 +41,7 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <a href="/cv.pdf" download className="flex items-center gap-2 px-6 py-2 bg-green-600 text-white text-sm font-bold rounded-full hover:bg-green-700 hover:scale-105 hover:shadow-xl hover:shadow-green-200 transition-all">
+            <a href="/cv.pdf" download className="flex items-center gap-2 px-6 py-2 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 hover:scale-105 hover:shadow-xl transition-all">
               <Download size={16} /> CV
             </a>
           </div>
@@ -74,7 +75,7 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <a href="/cv.pdf" download className="flex items-center gap-2 px-8 py-4 bg-green-700 text-white shadow-xl shadow-green-900/20 text-lg font-bold rounded-full hover:scale-105 transition-all mt-4">
+            <a href="/cv.pdf" download className="flex items-center gap-2 px-8 py-4 bg-black text-white shadow-xl text-lg font-bold rounded-full hover:bg-gray-800 hover:scale-105 transition-all mt-4">
               <Download size={24} /> Download CV
             </a>
           </motion.div>

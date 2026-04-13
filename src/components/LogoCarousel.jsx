@@ -29,7 +29,7 @@ const orgs = [
   { name: 'MJF', query: 'Manusher Jonno Foundation' },
   { name: 'MSF', query: 'Manabadhikar Shongskriti Foundation' },
   { name: 'BNWLA', query: 'Bangladesh National Women Lawyers Association' },
-  { name: 'BNPS', query: 'Bangladesh Nari Progati Sangha' },
+  { name: 'BNPS', query: 'BNPS' },
   { name: 'CDD', query: 'Centre for Disability in Development' },
   { name: 'NRECA International', query: 'NRECA International' },
   { name: 'FNF', query: 'Friedrich Naumann Foundation' },

@@ -16,7 +16,7 @@ const Hero = ({ data }) => {
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-transform duration-[20s] hover:scale-105"
         style={{
-          backgroundImage: "url('/tea-field.jpg')",
+          backgroundImage: "url('/hero.jpg')",
         }}
       />
       {/* Dark overlay for text readability */}
@@ -48,7 +48,7 @@ const Hero = ({ data }) => {
         onClick={scrollToAbout}
         initial={{ opacity: 0, y: 0 }}
         animate={{ opacity: 1, y: [0, 15, 0] }}
-        transition={{ 
+        transition={{
           opacity: { duration: 1, delay: 3.5 },
           y: { repeat: Infinity, duration: 2, ease: "easeInOut", delay: 3.5 }
         }}

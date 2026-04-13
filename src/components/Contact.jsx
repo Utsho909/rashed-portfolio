@@ -64,7 +64,7 @@ const Contact = ({ data }) => {
             <h3 className="text-3xl font-bold tracking-tight text-gray-900 mb-8">
               Interested in a detailed profile?
             </h3>
-            <a href="/cv.pdf" download className="flex items-center gap-4 px-8 py-5 bg-green-700 text-white rounded-full font-bold shadow-xl shadow-green-900/20 hover:scale-105 transition-all w-fit">
+            <a href="/cv.pdf" download className="flex items-center gap-4 px-8 py-5 bg-black text-white rounded-full font-bold shadow-xl hover:bg-gray-800 hover:scale-105 transition-all w-fit">
               <span>Download Full Curriculum Vitae</span>
               <ArrowRight size={20} />
             </a>
