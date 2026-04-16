@@ -122,9 +122,9 @@ export const cvData = {
     publications: [
         {
             "id": 1,
-            "title": "Online Safety Session Guide.pdf",
+            "title": "Facilitator Guide for Training Sessions on Safe Use of Information Technology",
             "year": "2024",
-            "publisher": "Professional Report",
+            "publisher": "MCYCDP Project, Baptist Aid, BBCF",
             "cover": "/docs/covers/1.png",
             "pdfUrl": "/docs/books/1.pdf",
             "pages": [
@@ -134,9 +134,9 @@ export const cvData = {
         },
         {
             "id": 2,
-            "title": "Session Guide for Child Club.pdf",
+            "title": "Facilitator Guide for Weekly Learning Sessions of Children’s Groups",
             "year": "2024",
-            "publisher": "Professional Report",
+            "publisher": "MCYCDP Project, Baptist Aid, BBCF",
             "cover": "/docs/covers/2.png",
             "pdfUrl": "/docs/books/2.pdf",
             "pages": [
@@ -146,9 +146,9 @@ export const cvData = {
         },
         {
             "id": 3,
-            "title": "Saving groupprint.pdf",
+            "title": "Facilitator Guide for Weekly Learning Sessions of Savings Groups",
             "year": "2024",
-            "publisher": "Professional Report",
+            "publisher": "MCYCDP Project, Baptist Aid, BBCF",
             "cover": "/docs/covers/3.png",
             "pdfUrl": "/docs/books/3.pdf",
             "pages": [
@@ -160,7 +160,7 @@ export const cvData = {
             "id": 4,
             "title": "Draft Session Guide for Youth Organisation 1.pdf",
             "year": "2024",
-            "publisher": "Professional Report",
+            "publisher": "MCYCDP Project, Baptist Aid, BBCF",
             "cover": "/docs/covers/4.png",
             "pdfUrl": "/docs/books/4.pdf",
             "pages": [
@@ -170,9 +170,9 @@ export const cvData = {
         },
         {
             "id": 5,
-            "title": "Baseline ReportASKDemocracy Rights Final 23-08-17 - short.pd...",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Baseline Survey Report of Strengthening Democracy by Promoting Human Rights Culture in Bangladesh Project",
+            "year": "2017",
+            "publisher": "",
             "cover": "/docs/covers/ASK_Baseline.png",
             "pdfUrl": "/docs/books/ASK_Baseline.pdf",
             "pages": [
@@ -182,9 +182,9 @@ export const cvData = {
         },
         {
             "id": 6,
-            "title": "ASKASTHABaseline-Survey-ReportFINAL11-May-2019.pdf",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Baseline Survey Report of ASTHA Project- Strengthening Access to Multi-Sectoral Public Services for GBV Survivors in Bangladesh",
+            "year": "2019",
+            "publisher": "",
             "cover": "/docs/covers/ASTHA-ASK.png",
             "pdfUrl": "/docs/books/ASTHA-ASK.pdf",
             "pages": [
@@ -196,9 +196,9 @@ export const cvData = {
 
         {
             "id": 9,
-            "title": "Child Labour Book 4th Edition.pdf",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Baseline Study on Child Labour in Keranigonj Apparel Hub",
+            "year": "2018",
+            "publisher": "Bangladesh Labour Foundation (BLF)",
             "cover": "/docs/covers/Child_labour_in_Local_RMG.png",
             "pdfUrl": "/docs/books/Child_labour_in_Local_RMG.pdf",
             "pages": [
@@ -208,9 +208,9 @@ export const cvData = {
         },
         {
             "id": 10,
-            "title": "MCYCDP Child Marriage - final.pdf",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Study Report: Research on root causes and consequences of child marriages Mollahat Child, Youth and Community Development Project Area, Bagerhat ",
+            "year": "2023",
+            "publisher": "Baptist Aid, BBCF",
             "cover": "/docs/covers/CMBAID.png",
             "pdfUrl": "/docs/books/CMBAID.pdf",
             "pages": [
@@ -220,9 +220,9 @@ export const cvData = {
         },
         {
             "id": 11,
-            "title": "Covers copy",
+            "title": "JOURNEY WITH ADOLESCENT GIRLS Empowerment, Rights, and Health (Bangla and Engish); JOURNEY WITH ADOLESCENT BOYS Empowerment, Rights, and Health (Bangla and Engish)",
             "year": "2024",
-            "publisher": "Professional Report",
+            "publisher": "REACTS-IN Project, World Vision Bangladesh",
             "cover": "/docs/covers/Copy_of_All_covers.png",
             "pdfUrl": "/docs/books/Copy_of_All_covers.pdf",
             "pages": [
@@ -232,9 +232,9 @@ export const cvData = {
         },
         {
             "id": 12,
-            "title": "cover",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Training Guide: Capacity of Organizations of Persons with Disabilities (Part 2) – Initiatives and Actions to Strengthen Programmatic/Technical Capacity",
+            "year": "2023",
+            "publisher": "",
             "cover": "/docs/covers/cover2.png",
             "pdfUrl": "/docs/books/cover2.pdf",
             "pages": [
@@ -244,9 +244,9 @@ export const cvData = {
         },
         {
             "id": 13,
-            "title": "cover",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Training Guide: Capacity of Organizations of Persons with Disabilities (Part 1) Initiatives and Actions to Strengthen Organizational Capacity",
+            "year": "2023",
+            "publisher": "",
             "cover": "/docs/covers/cover[1].png",
             "pdfUrl": "/docs/books/cover[1].pdf",
             "pages": [
@@ -256,9 +256,9 @@ export const cvData = {
         },
         {
             "id": 14,
-            "title": "Evaluation Report revised on May 18th.pdf",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Report on External Evaluation: Rehabilitation of ROANU Affected People",
+            "year": "2018",
+            "publisher": "",
             "cover": "/docs/covers/ICCO.png",
             "pdfUrl": "/docs/books/ICCO.pdf",
             "pages": [
@@ -269,9 +269,9 @@ export const cvData = {
 
         {
             "id": 16,
-            "title": "Baseline Study on countrywide downstream garment industry in...",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Study report on Countrywide Downstream (Local) Garment Industry in Bangladesh",
+            "year": "2017",
+            "publisher": "Bangladesh Labour Welfare Foundation (BLF)",
             "cover": "/docs/covers/Local_RMG.png",
             "pdfUrl": "/docs/books/Local_RMG.pdf",
             "pages": [
@@ -281,9 +281,9 @@ export const cvData = {
         },
         {
             "id": 17,
-            "title": "02.Bangla SH prevention and protestBangla 31.07.2019 1.pdf",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Sexual Harassment of Women in the Workplace: Prevention Strategies and Remedies (Bangla)",
+            "year": "2019",
+            "publisher": "Manusher Jonno Foundation (MJF)",
             "cover": "/docs/covers/MJF_RMG_BANGLA.png",
             "pdfUrl": "/docs/books/MJF_RMG_BANGLA.pdf",
             "pages": [
@@ -293,9 +293,9 @@ export const cvData = {
         },
         {
             "id": 18,
-            "title": "Study-Report-on-Sexual-Harassment-Update-24-09-19printed-ver...",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Study on : Sexual Harassment against female workers at Workplace: Strategy to Combat and Way Forward",
+            "year": "2019",
+            "publisher": "Manusher Jonno Foundation (MJF)",
             "cover": "/docs/covers/MJF_RMG.png",
             "pdfUrl": "/docs/books/MJF_RMG.pdf",
             "pages": [
@@ -305,9 +305,9 @@ export const cvData = {
         },
         {
             "id": 19,
-            "title": "Study-Report-GBV-on-CHT.pdf",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Study Report: Gender-Based Violence and Access to Justice for Indigenous Women and Girls in Chittagong Hill Tracts",
+            "year": "2020",
+            "publisher": "Manusher Jonno Foundation (MJF)",
             "cover": "/docs/covers/MJF-CHT.png",
             "pdfUrl": "/docs/books/MJF-CHT.pdf",
             "pages": [
@@ -317,9 +317,9 @@ export const cvData = {
         },
         {
             "id": 20,
-            "title": "MEAL FrameworkNGDO - Final English.pdf",
+            "title": "MEAL Framework & Implementation Guide",
             "year": "2024",
-            "publisher": "Professional Report",
+            "publisher": "NGDO",
             "cover": "/docs/covers/ngdo.png",
             "pdfUrl": "/docs/books/ngdo.pdf",
             "pages": [
@@ -329,9 +329,9 @@ export const cvData = {
         },
         {
             "id": 21,
-            "title": "Mapping-of-the-tannery-and-leather-sectors-in-Bangladesh.pdf",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Mapping of the tannery and leather sectors in Bangladesh",
+            "year": "2015",
+            "publisher": "Stichting Onderzoek Multinationale Ondernemingen (SOMO)",
             "cover": "/docs/covers/SOMO_TANARY.png",
             "pdfUrl": "/docs/books/SOMO_TANARY.pdf",
             "pages": [
@@ -342,9 +342,9 @@ export const cvData = {
 
         {
             "id": 23,
-            "title": "Microsoft Word - SBCQualitativeReportFinal 2025",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Study Report - Qualitative Study on Social and Behavioural Determinants of Maternal, Newborn, Child, and Adolescent Well-being",
+            "year": "2025",
+            "publisher": "",
             "cover": "/docs/covers/SUSUNICEF2025.png",
             "pdfUrl": "/docs/books/SUSUNICEF2025.pdf",
             "pages": [
@@ -354,9 +354,9 @@ export const cvData = {
         },
         {
             "id": 24,
-            "title": "Tannery in Bangladesh Final report.pdf",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Mapping and Analysis of Tannery Industries in Bangladesh",
+            "year": "2014",
+            "publisher": "Bangladesh Labour Welfare foundation (BLF)",
             "cover": "/docs/covers/Tannery_1.png",
             "pdfUrl": "/docs/books/Tannery_1.pdf",
             "pages": [
@@ -366,9 +366,9 @@ export const cvData = {
         },
         {
             "id": 25,
-            "title": "Microsoft Word - Document1",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Baseline Survey Report Third Project Phase of Mollahat Child, Youth, and Community Development Project (MCYCDP)",
+            "year": "2026",
+            "publisher": "DATA Consultancy-DATACon",
             "cover": "/docs/covers/BAID.png",
             "pdfUrl": "/docs/books/BAID.pdf",
             "pages": [
@@ -378,9 +378,9 @@ export const cvData = {
         },
         {
             "id": 26,
-            "title": "Microsoft Word - Draft evaluation report 2nd October 23 with...",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Evaluation Report No Silence in Violence:Action and Advocacy to Combat GBV in the Apparel Sector",
+            "year": "2023",
+            "publisher": "Bangladesh Center for Workers Solidarity: BCWS",
             "cover": "/docs/covers/bcws.png",
             "pdfUrl": "/docs/books/bcws.pdf",
             "pages": [
@@ -390,9 +390,9 @@ export const cvData = {
         },
         {
             "id": 27,
-            "title": "Microsoft Word - Final Eva ReportAWAMBNPS21Mar",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Project End Evaluation Report of Advancing Equality of Women and Marginalized People (AWAM)",
+            "year": "2022",
+            "publisher": "DATA Consultancy-DATACon",
             "cover": "/docs/covers/BNPS_AWAM.png",
             "pdfUrl": "/docs/books/BNPS_AWAM.pdf",
             "pages": [
@@ -402,9 +402,9 @@ export const cvData = {
         },
         {
             "id": 28,
-            "title": "Microsoft Word - PRiME Project Draft Baseline Report 2024",
+            "title": "Baseline Survey Report - Promoting Rights through Mobilization and Empowerment (PRiME) project",
             "year": "2024",
-            "publisher": "Professional Report",
+            "publisher": "",
             "cover": "/docs/covers/BNPS_PRIME1.png",
             "pdfUrl": "/docs/books/BNPS_PRIME1.pdf",
             "pages": [
@@ -414,9 +414,9 @@ export const cvData = {
         },
         {
             "id": 29,
-            "title": "BNWLA.",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "Assessment on the Arbitration Mechanism of Bangladesh Bureau of Manpower,Employment and Training (BMET) and District Employment and Manpower Offices (DEMO)",
+            "year": "2026",
+            "publisher": "",
             "cover": "/docs/covers/BNWLA.jpg",
             "pdfUrl": "/docs/books/BNWLA.pdf",
             "pages": [
@@ -426,9 +426,9 @@ export const cvData = {
         },
         {
             "id": 30,
-            "title": "Microsoft Word - Fnl EvaRepInteract17DecClean",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "External Evaluation Report: Interact’s Regional Program for Anti Human Trafficking (RPAHT) and Child Rights (RPCR) by INERACT ASIA",
+            "year": "2021",
+            "publisher": "DATA Consultancy-DATACon",
             "cover": "/docs/covers/Interact2.png",
             "pdfUrl": "/docs/books/Interact2.pdf",
             "pages": [
@@ -438,9 +438,9 @@ export const cvData = {
         },
         {
             "id": 31,
-            "title": "NK System Audit 31 August 2016.pdf",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "System Audit Report: Nijera Kori",
+            "year": "2016",
+            "publisher": "",
             "cover": "/docs/covers/NK.png",
             "pdfUrl": "/docs/books/NK.pdf",
             "pages": [
@@ -450,8 +450,8 @@ export const cvData = {
         },
         {
             "id": 32,
-            "title": "Microsoft Word - Ned assessment report - Final on 25 sept 20...",
-            "year": "2024",
+            "title": "Need Assessment Report: Childcare Services for Low-paid Working Parents and Other Stakeholders",
+            "year": "2013",
             "publisher": "Professional Report",
             "cover": "/docs/covers/PHULKI.png",
             "pdfUrl": "/docs/books/PHULKI.pdf",
@@ -462,9 +462,9 @@ export const cvData = {
         },
         {
             "id": 33,
-            "title": "Microsoft Word - Final DocumentKABP StudySUS",
-            "year": "2024",
-            "publisher": "Professional Report",
+            "title": "STUDY REPORT: Local Level Study to Establish Baseline: Knowledge, Attitude, Belief and Practices on Child Marriage, Violence Against Children and Child Vaccination",
+            "year": "2023",
+            "publisher": "",
             "cover": "/docs/covers/SUSUNICEF20231.png",
             "pdfUrl": "/docs/books/SUSUNICEF20231.pdf",
             "pages": [
@@ -474,9 +474,9 @@ export const cvData = {
         },
         {
             "id": 34,
-            "title": "Microsoft Word - Final Report - Accessibility Matters Disabi...",
+            "title": "Study Report - Accessibility Matters: A Review of Disability Inclusion in Bangladesh's Digital Ecosystem",
             "year": "2024",
-            "publisher": "Professional Report",
+            "publisher": "",
             "cover": "/docs/covers/UNDP.png",
             "pdfUrl": "/docs/books/UNDP.pdf",
             "pages": [
@@ -501,7 +501,7 @@ export const cvData = {
     ],
     skills: [
         "SPSS", "STATA", "CSPro", "MySQL", "Power BI", "SurveyCTO", "ODK", "KoBoToolbox",
-        "MEL Frameworks", "Theory of Change (ToC)", "SBCC Materials", "Gender Analysis"
+        "Project Management and MEAL Systems", "LFA/Theory of Change (ToC)", "SBCC Materials", "Gender Analysis"
     ],
     gallery: [
         {
