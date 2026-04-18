@@ -22,7 +22,7 @@ const popUp = { opacity: 0, x: 0, y: 0, scale: 0.7 };
 
 const BentoHighlights = () => {
   const skills = ['SPSS', 'STATA', 'CSPro', 'MySQL', 'Power BI', 'SurveyCTO', 'ODK', 'KoBoToolbox'];
-  const themes = ['Human Rights', 'Rights of Women and Children', 'Labor and Migrant Workers\'   Rights', 'Gender Equality', 'Disability Inclusion', 'SRHR', 'WASH', 'Education', 'Livelihoods', 'DRR', 'Climate Adaptation', 'CVE', 'Governance'];
+  const themes = ['Human Rights', 'Rights of Women and Children', 'Labor and Migrant Workers\'   Rights', 'Gender Equality', 'Disability Inclusion', 'SRHR', 'WASH', 'Education', 'Livelihoods', 'DRR', 'CCA', 'CVE', 'Governance'];
   const partners = ['UNICEF', 'UNDP', 'UNFPA', 'USAID', 'CBM Global', 'Oxfam GB', 'BRAC', 'Diakonia', 'TIB', 'SCI'];
 
   return (
