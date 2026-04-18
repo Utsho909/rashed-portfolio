@@ -158,7 +158,7 @@ export const cvData = {
         },
         {
             "id": 4,
-            "title": "Draft Session Guide for Youth Organisation 1.pdf",
+            "title": "Session Guide for Youth Organisation",
             "year": "2024",
             "publisher": "MCYCDP Project, Baptist Aid, BBCF",
             "cover": "/docs/covers/4.png",
@@ -479,6 +479,45 @@ export const cvData = {
             "publisher": "",
             "cover": "/docs/covers/UNDP.png",
             "pdfUrl": "/docs/books/UNDP.pdf",
+            "pages": [
+                "A detailed professional report containing essential research and findings. Originally documented as UNDP.pdf.",
+                "Click to open and read the full document in the interactive viewer."
+            ]
+        },
+          {
+            "id": 34,
+            "title": "Study Report - Accessibility Matters: A Review of Disability Inclusion in Bangladesh's Digital Ecosystem",
+            "year": "2024",
+            "publisher": "",
+            "cover": "/docs/covers/UNDP.png",
+            "pdfUrl": "/docs/books/UNDP.pdf",
+            "pages": [
+                "A detailed professional report containing essential research and findings. Originally documented as UNDP.pdf.",
+                "Click to open and read the full document in the interactive viewer."
+            ]
+        }  ,
+        
+        {
+            "id": 35,
+            "title": "Flood Preparedness in Sirajganj: Impact Assessment and Key Learnings",
+            "year": "2025",
+            "publisher": "National Development Programme (NDP)",
+            "cover": "/docs/covers/fp-sirajganj-ndp.png",
+            "pdfUrl": "/docs/books/fp-sirajganj-ndp.pdf",
+            "pages": [
+                "A detailed professional report containing essential research and findings. Originally documented as UNDP.pdf.",
+                "Click to open and read the full document in the interactive viewer."
+            ]
+        }
+         ,
+        
+        {
+            "id": 36,
+            "title": "The Evaluation Report On \"Doritry (Mother Earth-A Project onEco-enterprise development and\nmarketing (vermi compost)\"\nCaritas Bangladesh",
+            "year": "2025",
+            "publisher": "Caritas Bangladesh",
+            "cover": "/docs/covers/caritas.png",
+            "pdfUrl": "/docs/books/CARITS.pdf",
             "pages": [
                 "A detailed professional report containing essential research and findings. Originally documented as UNDP.pdf.",
                 "Click to open and read the full document in the interactive viewer."
