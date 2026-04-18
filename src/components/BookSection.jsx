@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Loader2, Download } from 'lucide-react';
+import { X, Loader2, Download, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const BookCard = ({ book, onClick }) => {
   return (
@@ -64,6 +64,45 @@ const BookReader = ({ book, onClose }) => {
 
 const BookSection = ({ publications }) => {
   const [selectedBook, setSelectedBook] = useState(null);
+  const [sortBy, setSortBy] = useState('newest');
+  const [currentPage, setCurrentPage] = useState(1);
+  const booksPerPage = 12;
+
+  // Sort publications
+  const sortedPublications = [...publications].sort((a, b) => {
+    switch (sortBy) {
+      case 'newest':
+        return parseInt(b.year || 0) - parseInt(a.year || 0);
+      case 'oldest':
+        return parseInt(a.year || 0) - parseInt(b.year || 0);
+      case 'title-asc':
+        return a.title.localeCompare(b.title);
+      case 'title-desc':
+        return b.title.localeCompare(a.title);
+      default:
+        return 0;
+    }
+  });
+
+  // Paginate
+  const indexOfLastBook = currentPage * booksPerPage;
+  const indexOfFirstBook = indexOfLastBook - booksPerPage;
+  const paginatedBooks = sortedPublications.slice(indexOfFirstBook, indexOfLastBook);
+  const totalPages = Math.ceil(sortedPublications.length / booksPerPage);
+
+  // Handle sort change
+  const handleSortChange = (e) => {
+    setSortBy(e.target.value);
+    setCurrentPage(1);
+  };
+
+  // Handle page change
+  const goToPage = (page) => {
+    if (page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   return (
     <section id="publications" className="books-section">
@@ -77,15 +116,77 @@ const BookSection = ({ publications }) => {
           </div>
         </div>
 
-        <div className="books-grid">
-          {publications.map((book) => (
-            <BookCard 
-              key={book.id} 
-              book={book} 
-              onClick={setSelectedBook} 
-            />
-          ))}
+        {/* Sort and Filter Controls */}
+        <div className="mb-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+          <div className="flex items-center gap-3">
+            <label className="text-sm font-semibold text-gray-700">Sort by:</label>
+            <select
+              value={sortBy}
+              onChange={handleSortChange}
+              className="px-4 py-2 rounded-lg border border-gray-300 bg-white text-gray-800 font-medium cursor-pointer hover:border-gray-400 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500"
+            >
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="title-asc">Title (A-Z)</option>
+              <option value="title-desc">Title (Z-A)</option>
+            </select>
+          </div>
+          <div className="text-sm text-gray-600 font-medium">
+            Showing {indexOfFirstBook + 1}–{Math.min(indexOfLastBook, sortedPublications.length)} of {sortedPublications.length}
+          </div>
         </div>
+
+        {/* Books Grid */}
+        <div className="books-grid">
+          <AnimatePresence mode="wait">
+            {paginatedBooks.map((book) => (
+              <BookCard 
+                key={book.id} 
+                book={book} 
+                onClick={setSelectedBook} 
+              />
+            ))}
+          </AnimatePresence>
+        </div>
+
+        {/* Pagination Controls */}
+        {totalPages > 1 && (
+          <div className="mt-16 flex justify-center items-center gap-2">
+            <button
+              onClick={() => goToPage(currentPage - 1)}
+              disabled={currentPage === 1}
+              className="p-2 rounded-lg border border-gray-300 bg-white hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              aria-label="Previous page"
+            >
+              <ChevronLeft size={20} className="text-gray-700" />
+            </button>
+
+            <div className="flex items-center gap-1">
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                <button
+                  key={page}
+                  onClick={() => goToPage(page)}
+                  className={`px-3 py-2 rounded-lg font-medium transition-all ${
+                    currentPage === page
+                      ? 'bg-green-500 text-white shadow-md'
+                      : 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-50'
+                  }`}
+                >
+                  {page}
+                </button>
+              ))}
+            </div>
+
+            <button
+              onClick={() => goToPage(currentPage + 1)}
+              disabled={currentPage === totalPages}
+              className="p-2 rounded-lg border border-gray-300 bg-white hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              aria-label="Next page"
+            >
+              <ChevronRight size={20} className="text-gray-700" />
+            </button>
+          </div>
+        )}
       </div>
 
       <AnimatePresence>

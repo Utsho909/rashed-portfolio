@@ -484,19 +484,6 @@ export const cvData = {
                 "Click to open and read the full document in the interactive viewer."
             ]
         },
-          {
-            "id": 34,
-            "title": "Study Report - Accessibility Matters: A Review of Disability Inclusion in Bangladesh's Digital Ecosystem",
-            "year": "2024",
-            "publisher": "",
-            "cover": "/docs/covers/UNDP.png",
-            "pdfUrl": "/docs/books/UNDP.pdf",
-            "pages": [
-                "A detailed professional report containing essential research and findings. Originally documented as UNDP.pdf.",
-                "Click to open and read the full document in the interactive viewer."
-            ]
-        }  ,
-        
         {
             "id": 35,
             "title": "Flood Preparedness in Sirajganj: Impact Assessment and Key Learnings",
