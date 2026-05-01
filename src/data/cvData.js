@@ -765,6 +765,33 @@ export const cvData = {
             "url": "/docs/gallery/other_20.jpeg",
             "width": 4,
             "height": 3
+        },
+        {
+            "id": 28,
+            "title": "Unsorted Photo 21",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/newly_added_1.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 29,
+            "title": "Unsorted Photo 22",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/newly_added_2.jpeg",
+            "width": 4,
+            "height": 3
+        },
+        {
+            "id": 30,
+            "title": "Unsorted Photo 23",
+            "category": "Others",
+            "location": "Bangladesh",
+            "url": "/docs/gallery/newly_added_3.jpeg",
+            "width": 4,
+            "height": 3
         }
     ]
 };
